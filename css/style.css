@@ -1,0 +1,206 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Ubuntu:500italic&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Anton:regular&display=swap");
+
+@import url("https://fonts.googleapis.com/css?family=Lato:100,100italic,300,300italic,regular,italic,700,700italic,900,900italic&display=swap");
+
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url('../fonts/Gilroy-SemiBold.woff2') format('woff2'),
+	     url('../fonts/Gilroy-SemiBold.woff') format('woff');
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;	  
+}
+@font-face {
+	font-family: 'Gilroy';
+	src: url('../fonts/Gilroy-LightItalic.woff2') format('woff2'),
+	     url('../fonts/Gilroy-LightItalic.woff') format('woff');
+	font-weight: 300;
+	font-style: italic;
+	font-display: swap;	  
+}
+@font-face {
+	font-family: 'Gilroy';
+	src: url('../fonts/Gilroy-Regular.woff2') format('woff2'),
+	     url('../fonts/Gilroy-Rrgular.woff') format('woff');
+		  font-weight: normal;
+		  font-style: normal;
+		  font-display: swap;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Lora:regular,500,600,700,italic&display=swap&subset=cyrilic-ext");
+
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+ 
+
+
+body {
+ font-weight: 400;
+ font-size: 20px;
+ color: black;
+ line-height: 2;
+ font-family: Lato;
+}
+
+.nav {
+ font-size: 40px;
+ text-transform: uppercase;	
+ color: red;
+ text-shadow: 2px 4px 2px black;
+ background-color:lightsteelblue;
+ text-align: center;
+}
+a {
+ font-size: 25px;
+ font-weight: 400;
+ color:brown;
+ padding:30px;
+}
+.menu li {
+ font-size: 25px;
+ padding: 10px 30px;
+ display: inline-block;
+}
+.subtitle {
+ font-weight: 600;
+}
+.text {
+ color:brown;
+ background-color:honeydew ;
+ padding: 50px;
+}
+.text_2 {
+ background-color: khaki;
+ margin: 40px;
+ padding: 15px;
+ border-radius: 20px;
+}
+.text_3 {
+ background-color: lavender;
+ padding: 30px 50px;
+ border-radius: 20px;
+}
+.text_3 span {
+ text-decoration: underline;
+ background-color: lightsteelblue;
+ line-height: 60px;
+ display: block;
+}
+.paragraph {
+ background-color: lightgrey;
+ padding: 10px;
+ margin: 0px 0px 0px auto;
+ overflow:auto;
+ height: 110px;
+ width: 70%;
+ font-size: 16px;
+ border-left: 3px dotted lightblue;
+ opacity: 0;
+ visibility: hidden;
+ transition: all 0.3s ease 0s ;
+}
+.paragraph_2 {
+ padding: 30px 50px;
+ margin: 0;
+ border: 1px solid black;
+ box-shadow: inset 0px 0px 5px 2px gray;
+ }
+.block {
+ font-family: Gilroy;
+ font-weight: 600;
+ background-color:lightyellow;
+ padding: 30px 30px;
+ width: 50%;
+ border-right: 3px dotted rosybrown;
+ }
+.wrapper:hover .paragraph {
+opacity: 1;
+visibility: visible;
+}
+.block_2 {
+ background-color: mistyrose;
+ margin: -20px 30px 30px;
+ padding: 35px;
+ border: 1px solid black;
+ box-shadow: inset 0px 0px 5px 2px brown;
+ }
+
+.image {
+ max-width: 100%;
+ background-color: lightsteelblue;
+ padding: 30px;
+}
+.image_2 {
+ max-width: 100%;
+ margin: 15px;
+ float: right ;
+}
+.item {
+ clear: both;
+}
+.title {
+ font-family: 'Ubuntu', sans-serif;
+ font-weight: 700;
+ font-size: 52px;
+ text-align: center;
+ margin: -50px 20px 20px ;
+ text-shadow: 2px 2px 2px rgba(255, 0, 0, 0.452);
+ display: block;
+}
+.main { 
+ font-family: Gilroy;
+ font-weight: 300;
+ font-style: italic;
+ background-color: linen;
+ padding: 50px 30px;
+}
+
+.footer {
+ background-color:lightsteelblue;
+ padding: 30px 100px;
+ border-top: 3px dashed black;
+}
+.button {
+	background-color: #ff5722;
+	color: #ffffff;
+	font-weight: 700;
+	padding: 15px 10px;
+	display: block;
+	max-width: 350px;
+	line-height: 23px;
+	font-size: 18px;
+	text-transform: uppercase;
+	text-align: center;
+}
